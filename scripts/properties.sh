@@ -25,7 +25,7 @@ else
 fi
 
 # Termux packages configuration.
-TERMUX_APP_PACKAGE="com.termux"
+TERMUX_APP_PACKAGE="com.deskbtm.vs_droid"
 TERMUX_BASE_DIR="/data/data/${TERMUX_APP_PACKAGE}/files"
 TERMUX_CACHE_DIR="/data/data/${TERMUX_APP_PACKAGE}/cache"
 TERMUX_ANDROID_HOME="${TERMUX_BASE_DIR}/home"
@@ -35,7 +35,7 @@ TERMUX_PREFIX="${TERMUX_BASE_DIR}/usr"
 # Package name for the packages hosted on the repo.
 # This must only equal TERMUX_APP_PACKAGE if using custom repo that
 # has packages that were built with same package name.
-TERMUX_REPO_PACKAGE="com.termux"
+TERMUX_REPO_PACKAGE="com.deskbtm.vs_droid"
 
 # Termux repo urls.
 TERMUX_REPO_URL=(
